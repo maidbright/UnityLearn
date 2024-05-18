@@ -5,6 +5,6 @@ public class tenBullets : BulletScript
 
     protected override void Fire()
     {
-        body.AddForce(-transform.up * speed, ForceMode.Impulse);
+        body.AddForce(-transform.right * speed);
     }
 }
