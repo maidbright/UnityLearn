@@ -39,7 +39,7 @@ public Camera CharCamera
         { 
             if(!isMoving)
             {
-                Animator.Play("Run");
+                Animator.Play("Walk");
             }
             isMoving = true;
         
