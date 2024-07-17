@@ -3918,7 +3918,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 27.220507
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -3940,7 +3940,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 0
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -3959,7 +3959,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522811750}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.12457371, y: -0.4434922, z: 0.062399544, w: 0.88538265}
+  m_LocalRotation: {x: 0.124707945, y: -0.44158208, z: 0.06213078, w: 0.88633686}
   m_LocalPosition: {x: 71.00915, y: 25.7, z: 31.621984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7277,6 +7277,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: a88e547e5a39f54498ebe28ed8e7dcd0, type: 2}
+    - target: {fileID: 9500000, guid: a5674d01884853d4e8f2386a171e14d9, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -8257,7 +8261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8981d9fcc1b2f704282384d271eddfe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 10
+  movementSpeed: 5
   rotationSpeed: 0.2
 --- !u!143 &1147050097
 CharacterController:
@@ -8676,7 +8680,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216900751}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.124573715, y: -0.4434922, z: 0.062399544, w: 0.8853826}
+  m_LocalRotation: {x: 0.124707974, y: -0.44158208, z: 0.062130786, w: 0.8863368}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11507,7 +11511,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560213203}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.089720406, y: -0.46651492, z: 0.04763602, w: 0.8786609}
+  m_LocalRotation: {x: 0.089720406, y: -0.46651492, z: 0.04763602, w: 0.87866086}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
